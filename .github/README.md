@@ -51,7 +51,7 @@ This repository contains a curated collection of dotfiles and scripts to transfo
 
 #### 📂 Repository Structure
 
-... to be contimue
+... to be continue
 
 
   <!-- Neon Line Separator -->
