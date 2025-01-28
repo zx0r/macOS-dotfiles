@@ -1,0 +1,74 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+#     a88888b.              dP         888888ba                           dP
+#    d8'   `88              88         88    `8b                          88
+#    88       .d8888b..d888b88.d8888b.a88aaaa8P'.d8888b..d8888b..d8888b.d8888P
+#    88       88'  `8888'  `8888ooood8 88   `8b.88'  `8888'  `88Y8ooooo.  88
+#    Y8.   .8888.  .8888.  .8888.  ... 88    .8888.  .8888.  .88      88  88
+#     Y88888P'`88888P'`88888P8`88888P' 88888888P`88888P'`88888P'`88888P'  dP
+#                               Copyright (c) 2025 zx0r. All rights reserved.
+
+#     Author:        zx0r
+#     License:       MIT License
+#     Contact Info:  https:#github.com/zx0r
+#     Version: 1.0
+#     Date: 2025-01-20
+#     Description: Comprehensive configuration file for bat syntax highlighting
+
+
+#                                               “Stay Hungry, Stay Foolish.”
+#                                                      - Steve Jobs  Apple
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# This is `bat`s configuration file. Each line either contains a comment or
+# a command-line option that you want to pass to `bat` by default. You can
+# run `bat --help` to get a list of all possible configuration options.
+
+# Specify desired highlighting theme (e.g. "TwoDark").
+# Run `bat cache --build` and after `bat --list-themes` for a list of all available themes
+
+--theme="cyberpunk-glow"
+--style="header,grid,changes" # Show line numbers and Git changes 
+--wrap=auto                   # Wrap text automatically based on terminal width
+--tabs=2                      # Set tab width to 4 spaces
+
+# Enable this to use italic text on the terminal. This is not supported on all
+# terminal emulators (like tmux, by default):
+
+# Advanced options
+--color=always                # Always use colors (even when piping to other commands)
+--decorations=always          # Always show decorations (line numbers, Git changes, etc.)
+--italic-text=always          # Always use italic text where supported
+--file-name="[File: {}]"      # Customize the file name display
+
+# Git integration
+--diff-context=5              # Show 5 lines of context in Git diff mode
+
+# Uncomment the following line if you are using less version >= 551 and want to
+# enable mouse scrolling support in `bat` when running inside tmux. This might
+# disable text selection, unless you press shift.
+
+--pager="less --RAW-CONTROL-CHARS --quit-if-one-screen --mouse"
+# --pager="less -RF"          # Use `less` as the pager with -RF options (raw and exit if content fits one screen)
+# --paging=never              # Disable paging (use `auto` to enable it conditionally)
+
+# Syntax mappings: map a certain filename pattern to a language.
+# Example 1: use the C++ syntax for Arduino .ino files
+# Example 2: Use ".gitignore"-style highlighting for ".ignore" files
+
+# Language-specific overrides
+--map-syntax="*.conf:INI"     # Treat .conf files as INI files
+--map-syntax="*.h:C++"        # Treat .h files as C++ files
+--map-syntax="*.md:Markdown"  # Treat .md files as Markdown
+--map-syntax="*.myext:Python" # Treat .myext files as Python files
+--map-syntax="*.data:JSON"    # Treat .data files as JSON files
+--map-syntax "*.h:C++"
+--map-syntax "*.ino:C++"
+--map-syntax "*.t:Perl"
+--map-syntax ".ignore:Git Ignore"
+--map-syntax "_*:Bourne Again Shell"
+--map-syntax="*.Dockerfile:Dockerfile" # Treat Dockerfiles correctly
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+

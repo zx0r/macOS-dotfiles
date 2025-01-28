@@ -1,0 +1,45 @@
+[plugin]
+deps = [
+{ use = "yazi-rs/plugins:hide-preview", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:full-border", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:max-preview", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:chmod", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:diff", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:jump-to-char", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:smart-filter", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:mactag", rev = "f202fa8" }, 
+{ use = "yazi-rs/plugins:git", rev = "f202fa8" }, 
+{ use = "Reledia/glow", rev = "5ce76dc" }, 
+{ use = "Reledia/miller", rev = "40e0265" }, 
+{ use = "Rolv-Apneseth/starship", rev = "af8bf6f" }, 
+{ use = "Rolv-Apneseth/bypass", rev = "6c5414f" }, 
+{ use = "imsi32/yatline", rev = "9328205" }, 
+{ use = "imsi32/yatline-githead", rev = "a6377a8" }, 
+{ use = "kirasok/torrent-preview", rev = "c9e67df" }, 
+{ use = "dedukun/relative-motions", rev = "df97039" }, 
+{ use = "ndtoan96/ouch", rev = "083d564" }, 
+{ use = "Sonico98/exifaudio", rev = "d794614" }, 
+{ use = "BBOOXX/file-actions", rev = "0e4dd45" }, 
+{ use = "KKV9/compress", rev = "60b24af" }, 
+{ use = "KKV9/command", rev = "95a29be" }, 
+{ use = "GrzegorzKozub/mdcat", rev = "d3d5089" }, 
+{ use = "Lil-Dank/lazygit", rev = "c82794f" }, 
+{ use = "GianniBYoung/rsync", rev = "3f431aa" }, 
+{ use = "h-hg/yamb", rev = "3f7c51f" }, 
+{ use = "SL-RU/mount", rev = "e494101" }, 
+{ use = "AnirudhG07/rich-preview", rev = "6752254" },
+{ use = "AnirudhG07/nbpreview", rev = "1d85745" }, 
+{ use = "AnirudhG07/plugins-yazi:copy-file-contents", rev = "52ee2ba" }]
+
+
+[flavor]
+deps = [
+{ use = "tkapias/moonfly", rev = "395c686" }, 
+{ use = "dangooddd/kanagawa", rev = "d98f0c3" }, 
+{ use = "kmlupreti/ayu-dark", rev = "8d487bc" }, 
+{ use = "PinThePenguine/sunset", rev = "181acd4" }, 
+{ use = "yazi-rs/flavors:catppuccin-latte", rev = "fd85060" }, 
+{ use = "yazi-rs/flavors:catppuccin-mocha", rev = "fd85060" }, 
+{ use = "yazi-rs/flavors:catppuccin-frappe", rev = "fd85060" }, 
+{ use = "yazi-rs/flavors:catppuccin-macchiato", rev = "fd85060" }]
+
