@@ -13,7 +13,7 @@
 
 ![Workspase-1](https://github.com/zx0r/VSCodium-Configuration/blob/main/.github/assets/Screen-1.jpg)
 ![Workspase-2](https://github.com/zx0r/VSCodium-Configuration/blob/main/.github/assets/Screen-2.jpg)
-![Workspase-3](https://github.com/zx0r/VSCodium-Configuration/blob/main/.github/assets/Screen-3.jpg)
+![Workspase-3](https://github.com/zx0r/macOS-dotfiles/blob/main/.github/assets/Kytty.jpg)
 
 <!-- Neon Line Separator -->
 <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
